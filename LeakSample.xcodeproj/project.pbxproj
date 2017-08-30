@@ -14,6 +14,7 @@
 		CE1AC1331F570ED800400E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1AC1311F570ED800400E36 /* LaunchScreen.storyboard */; };
 		CE1AC13E1F570ED800400E36 /* LeakSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC13D1F570ED800400E36 /* LeakSampleTests.swift */; };
 		CE1AC1491F570ED800400E36 /* LeakSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC1481F570ED800400E36 /* LeakSampleUITests.swift */; };
+		CE1AC1571F570F2000400E36 /* ClosureHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC1561F570F2000400E36 /* ClosureHolder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE1AC1441F570ED800400E36 /* LeakSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeakSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AC1481F570ED800400E36 /* LeakSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakSampleUITests.swift; sourceTree = "<group>"; };
 		CE1AC14A1F570ED800400E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1AC1561F570F2000400E36 /* ClosureHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureHolder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				CE1AC1281F570ED800400E36 /* AppDelegate.swift */,
 				CE1AC12A1F570ED800400E36 /* ViewController.swift */,
+				CE1AC1561F570F2000400E36 /* ClosureHolder.swift */,
 				CE1AC12C1F570ED800400E36 /* Main.storyboard */,
 				CE1AC12F1F570ED800400E36 /* Assets.xcassets */,
 				CE1AC1311F570ED800400E36 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1AC12B1F570ED800400E36 /* ViewController.swift in Sources */,
+				CE1AC1571F570F2000400E36 /* ClosureHolder.swift in Sources */,
 				CE1AC1291F570ED800400E36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

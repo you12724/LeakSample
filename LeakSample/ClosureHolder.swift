@@ -7,3 +7,22 @@
 //
 
 import Foundation
+
+class ClosureHolder {
+    private var myClosure: (() -> Void)?
+    
+    deinit {
+        print("ClosureHolder deinit")
+    }
+    
+    init() {
+        myClosure = { () in
+            self.innerFunc()
+        }
+        myClosure?()
+    }
+    
+    func innerFunc() {
+        print("innerFunc")
+    }
+}
